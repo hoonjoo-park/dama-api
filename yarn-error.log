@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add -D primsa
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/phj/.fig/bin:/Users/phj/.local/bin:/Users/phj/Library/Android/sdk/emulator:/Users/phj/Library/Android/sdk/tools:/Users/phj/Library/Android/sdk/tools/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin/:/Users/phj/Library/Android/sdk/tools:/Users/phj/Library/Android/sdk/tools/bin:/Users/phj/.local/bin:/Users/phj/.fig/bin:/Users/phj/.dotnet/tools:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin/:/Users/phj/Library/Android/sdk/emulator:/usr/local/share/dotnet:/Library/Frameworks/Python.framework/Versions/3.10/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/primsa: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "dama-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
