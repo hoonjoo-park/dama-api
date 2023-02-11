@@ -1,6 +1,0 @@
-model Menu {
-    id          String @id @default(uuid())
-    name        String
-    price       Int
-    imageUrl    String
-}

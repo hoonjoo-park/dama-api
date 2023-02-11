@@ -6,3 +6,10 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+model Menu {
+    id          Int @id @default(autoincrement())
+    name        String
+    price       Int
+    imageUrl    String
+}
